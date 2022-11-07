@@ -135,3 +135,12 @@ i {
   justify-content: center;
   text-align: right;
 }
+
+.image-container {
+  flex: 1 1 300px;
+  position: relative;
+}
+
+.image-container i {
+  position: absolute;
+}
