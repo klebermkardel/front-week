@@ -58,7 +58,7 @@ i {
 
 #navbar {
   display: flex;
-  gap: 3rem;
+  gap: 4rem;
   text-transform: uppercase;
   margin-right: 2rem;
 }
