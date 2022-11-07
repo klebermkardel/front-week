@@ -55,3 +55,10 @@ i {
   background-color: var(--main-color);
   padding: 1rem;
 }
+
+#navbar {
+  display: flex;
+  gap: 2rem;
+  text-transform: uppercase;
+  margin-right: 2rem;
+}
