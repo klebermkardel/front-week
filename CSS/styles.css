@@ -44,3 +44,8 @@ i {
   margin-bottom: 2rem;
   position: relative;
 }
+
+#brand {
+  background-color: var(--main-color);
+  padding: 1rem;
+}
