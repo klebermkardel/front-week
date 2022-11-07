@@ -147,6 +147,16 @@ i {
   font-size: 2rem;
 }
 
+.btn {
+  padding: 1.2rem 1.8rem;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: bold;
+  background-color: var(--main-color);
+  color: var(--primary-text-color);
+  align-self: end;
+}
+
 .image-container {
   flex: 1 1 300px;
   position: relative;
