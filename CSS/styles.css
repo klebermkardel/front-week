@@ -136,6 +136,17 @@ i {
   text-align: right;
 }
 
+.section-subtitle {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+.section-title {
+  color: var(--secondary-text-color);
+  font-size: 2rem;
+}
+
 .image-container {
   flex: 1 1 300px;
   position: relative;
