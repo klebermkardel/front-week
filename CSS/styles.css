@@ -5,7 +5,7 @@
   --secondary-text-color: #191919;
   --secondary-color: #868686;
   --tertiary-color: #eff3f4;
-  
+  --secondary-bg-color: #5c1011;
 }
 
 * {
@@ -34,7 +34,7 @@ i {
   padding: 2rem;
 }
 
-/* Cabeçalho e Banner */
+/* Cabeçalho e banner */
 #header {
   min-height: 90vh;
   background-image: url("../img/main_banner4.png");
@@ -244,6 +244,7 @@ i {
   flex: 1 1 0;
   display: flex;
   flex-wrap: wrap;
+  padding: 2rem;
 }
 
 #about-data .data {
@@ -253,6 +254,18 @@ i {
   align-items: center;
   justify-content: center;
   padding: 2rem;
+  margin-top: -1px;
+  margin-left: -1px;
+}
+
+#about-data .data:first-child {
+  border-bottom: 1px solid var(--secondary-text-color);
+  border-right: 1px solid var(--secondary-text-color);
+}
+
+#about-data .data:last-child {
+  border-top: 1px solid var(--secondary-text-color);
+  border-left: 1px solid var(--secondary-text-color);
 }
 
 #about-data .data i {
