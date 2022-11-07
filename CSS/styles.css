@@ -126,3 +126,12 @@ i {
   flex-wrap: wrap;
   gap: 2rem;
 }
+
+.text-container {
+  flex: 2 1 0;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+}
