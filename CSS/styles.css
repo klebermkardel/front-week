@@ -119,3 +119,10 @@ i {
 .dot.active {
   background-color: var(--main-color);
 }
+
+/* Áreas de atuação */
+.text-image-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
