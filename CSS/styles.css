@@ -83,8 +83,21 @@ i {
 .banner h2 {
   font-size: 4rem;
   margin-bottom: 1.2rem;
+  position: relative;
+  z-index: 2;
 }
 
 .banner p {
   font-size: 1.5rem;
+}
+
+.square {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-color: var(--main-color);
+  position: absolute;
+  z-index: 1;
+  left: 20px;
+  top: 20px;
 }
