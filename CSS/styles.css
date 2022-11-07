@@ -79,3 +79,12 @@ i {
   position: absolute;
   transition: 0.6s;
 }
+
+.banner h2 {
+  font-size: 4rem;
+  margin-bottom: 1.2rem;
+}
+
+.banner p {
+  font-size: 1.5rem;
+}
