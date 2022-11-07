@@ -99,5 +99,23 @@ i {
   position: absolute;
   z-index: 1;
   left: 20px;
-  top: 20px;
+  top: 40px;
+}
+
+.dots {
+  display: flex;
+  gap: 2rem;
+  position: absolute;
+  bottom: 3rem;
+  left: 3rem;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  background-color: var(--secondary-color);
+}
+
+.dot.active {
+  background-color: var(--main-color);
 }
