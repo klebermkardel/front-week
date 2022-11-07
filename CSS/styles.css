@@ -58,7 +58,12 @@ i {
 
 #navbar {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
   text-transform: uppercase;
   margin-right: 2rem;
+}
+
+#navbar a {
+  color: var(--primary-text-color);
+  font-weight: bold;
 }
