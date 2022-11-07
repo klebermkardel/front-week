@@ -45,6 +45,12 @@ i {
   position: relative;
 }
 
+#inner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #brand {
   background-color: var(--main-color);
   padding: 1rem;
