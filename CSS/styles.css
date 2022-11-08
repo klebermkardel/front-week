@@ -632,4 +632,21 @@ i {
   .employees {
     flex-wrap: wrap;
   }
+
+  /* Contato */
+  #contact {
+    padding-bottom: 0;
+  }
+
+  #contact-information {
+    padding: 7rem 1rem;
+  }
+
+  #contact-information .form-control {
+    flex-direction: column;
+  }
+
+  #contact-information .btn {
+    align-self: auto;
+  }
 }
