@@ -562,4 +562,13 @@ i {
   #menu, #close-menu {
     display: block;
   }
+
+  .banner {
+    max-width: 100%;
+    padding: 4rem 2 rem;
+  }
+
+  .banner h2 {
+    font-size: 3rem;
+  }
 }
