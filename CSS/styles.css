@@ -294,7 +294,7 @@ i {
   padding: 3rem;
 }
 
-.author {
+.autor {
   display: flex;
   justify-content: end;
   align-items: center;
@@ -612,5 +612,11 @@ i {
     width: 100%;
     border: none;
     border-bottom: 1px solid var(--secondary-text-color);
+  }
+
+  /* Depoimentos */
+  .text-container {
+    text-align: center;
+    padding: 2rem;
   }
 }
