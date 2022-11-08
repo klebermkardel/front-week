@@ -619,4 +619,17 @@ i {
     text-align: center;
     padding: 2rem;
   }
+
+  /* Colaboradores */
+  #team {
+    margin-top: 2rem;
+  }
+
+  #team h2 {
+    font-size: 2.5rem;
+  }
+
+  .employees {
+    flex-wrap: wrap;
+  }
 }
