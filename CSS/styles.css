@@ -438,7 +438,7 @@ i {
 .contact-info,
 .links-container {
   width: 20%;
-}¨
+}
 
 .footer-brand {
   margin-bottom: 2rem;
@@ -503,7 +503,8 @@ i {
 }
 
 /* Mobile navbar */
-#menu, #close-menu {
+#menu,
+#close-menu {
   font-size: 2rem;
   padding: 1rem;
   display: none;
@@ -559,13 +560,14 @@ i {
     display: none;
   }
 
-  #menu, #close-menu {
+  #menu,
+  #close-menu {
     display: block;
   }
 
   .banner {
     max-width: 100%;
-    padding: 4rem 2 rem;
+    padding: 4rem 2rem;
   }
 
   .banner h2 {
@@ -605,7 +607,7 @@ i {
 
   .about-description i {
     padding: 0;
-    min-width: 40px
+    min-width: 40px;
   }
 
   #about #about-data .data {
@@ -657,7 +659,7 @@ i {
 
   #footer i {
     font-size: 2rem;
-    padding: 1;
+    padding: 1rem;
   }
 
   .footer-brand {
