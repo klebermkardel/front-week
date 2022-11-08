@@ -588,4 +588,29 @@ i {
   #other-services {
     flex-wrap: wrap;
   }
+
+  /* Sobre nós */
+  #about {
+    gap: 0;
+  }
+
+  #about-text,
+  #about-data {
+    flex: 1 1 100%;
+  }
+
+  .about-description {
+    gap: 1rem;
+  }
+
+  .about-description i {
+    padding: 0;
+    min-width: 40px
+  }
+
+  #about #about-data .data {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--secondary-text-color);
+  }
 }
