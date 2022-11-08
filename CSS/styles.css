@@ -649,4 +649,35 @@ i {
   #contact-information .btn {
     align-self: auto;
   }
+
+  /* Rodapé */
+  #footer {
+    flex-wrap: wrap;
+  }
+
+  #footer i {
+    font-size: 2rem;
+    padding: 1;
+  }
+
+  .footer-brand {
+    text-align: center;
+  }
+
+  .networks {
+    margin-bottom: 3rem;
+  }
+
+  .links-container {
+    margin-bottom: 1rem;
+  }
+
+  .links-container h4 {
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-info,
+  .links-container {
+    width: 100%;
+  }
 }
