@@ -7,6 +7,10 @@ const desktopLinks = document.querySelectorAll("#navbar a");
 const mobileLinks = document.querySelectorAll("#mobile-navbar a");
 const allLinks = [...desktopLinks, ...mobileLinks];
 
+const slides = document.querySelectorAll(".banner");
+const dots = document.querySelectorAll(".dot");
+let slideIndex = 0;
+
 // Funções
 function smoothScroll(e) {
   e.preventDefault();
